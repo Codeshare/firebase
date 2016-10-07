@@ -1,0 +1,45 @@
+{
+  "author": {
+    "name": "Firebase"
+  },
+  "browser": "./lib/firebase-web.js",
+  "dependencies": {
+    "faye-websocket": ">=0.6.0",
+    "keypather": "^2.0.1"
+  },
+  "description": "Firebase library for Node.js",
+  "devDependencies": {
+    "jsnice": "^0.2.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "4e1119ec0396ca561d8a7acbff1630feac6c0a31",
+    "tarball": "https://registry.npmjs.org/firebase/-/firebase-2.4.2.tgz"
+  },
+  "email": "operations@firebase.com",
+  "keywords": [
+    "Firebase",
+    "synchronization",
+    "real-time",
+    "websocket"
+  ],
+  "main": "./lib/firebase-node-extended.js",
+  "maintainers": [
+    {
+      "name": "firebase",
+      "email": "info@envolve.com"
+    }
+  ],
+  "name": "firebase",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "none",
+    "url": "https://www.firebase.com/"
+  },
+  "scripts": {
+    "nice": "jsnice ./lib/firebase-node.js > ./lib/firebase-node.nice.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.4.2"
+}
