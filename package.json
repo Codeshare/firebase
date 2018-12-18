@@ -5,7 +5,7 @@
   "browser": "./lib/firebase-web.js",
   "dependencies": {
     "faye-websocket": ">=0.6.0",
-    "keypather": "^2.0.1"
+    "keypather": "^3.1.0"
   },
   "description": "Firebase library for Node.js",
   "devDependencies": {
